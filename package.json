@@ -1,16 +1,24 @@
 {
-  "name": "youtube_downloader",
+  "name": "YoutubeDownloader",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "code.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamedTaherpour/Youtube-Video-Downloader-App.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HamedTaherpour/Youtube-Video-Downloader-App/issues"
+  },
+  "homepage": "https://github.com/HamedTaherpour/Youtube-Video-Downloader-App#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "ytdl-core": "^4.5.0"
+    "ytdl-core": "^4.8.3"
   }
 }
